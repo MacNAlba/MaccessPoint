@@ -11,7 +11,8 @@ plans to create a python version and bash version that can run on other linux di
 
 BUILT WITH
 
-Zsh Linux
+Zsh Shell 
+Kali Linux
 
 GETTING STARTED
 
