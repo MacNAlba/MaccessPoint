@@ -1,3 +1,12 @@
+###############################
+# 	  MaccessPoint	      #
+#    A Customisable Linux     #
+#  based, WiFi Access Point   #
+#	      By	      #
+#	   MacNAlba	      #
+#	 Created 2021	      #
+###############################
+
 #!/bin/zsh
 
 # Begin IF statement to check if user id(/usr/bin/id -u) is not equal to root (0)
@@ -129,7 +138,7 @@ read usrChannel
 echo "channel=$usrChannel" >> /etc/hostapd/hostapd.conf
 echo "ap_max_inactivity=1800" >> /etc/hostapd/hostapd.conf
 echo "broadcast_deauth=1" >> /etc/hostapd/hostapd.conf
-echo "eap_server=0" >> /etc/hostapd/hostapd.conf
+
 
 echo "DEAMON_CONF=" >> /etc/hostapd
 echo "Dnsmasq.conf settings: "
